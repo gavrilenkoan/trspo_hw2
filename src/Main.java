@@ -57,8 +57,8 @@ public class Main {
         printResult(threadsAmount, PI, start, end);
     }
 
-    private static void printResult(int treadAmount, double PI, long start, long end) {
-        System.out.println(treadAmount + "-thread calculations:\nPI = " + PI +
+    private static void printResult(int threadAmount, double PI, long start, long end) {
+        System.out.println(threadAmount + "-thread calculations:\nPI = " + PI +
                 "\nexecution time - " + (end - start) / 1000.0 + "s\n");
     }
 
